@@ -87,3 +87,13 @@ FIVE SECTION MUSIC-CONTENT
     border: 1px dashed black;
     background-color: rgba(255, 255, 0, 0.517);
 }
+
+/*
+SIX SECTION NAV-MUSIC-CONTENT
+*/
+.nav-music-content{
+    width: 100%;
+    height: 60px;
+    border: 1px dashed black;
+    background-color: rgb(255, 113, 250);
+}
