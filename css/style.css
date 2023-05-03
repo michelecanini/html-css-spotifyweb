@@ -8,6 +8,23 @@ GENERAL SETTING - DESKTOP FIRST
 }
 
 /*
+UTILITY SETTING
+*/
+
+ul{
+    list-style-type: none;
+    
+}
+
+a{
+    text-decoration: none;
+}
+.inline-block{
+    display: inline-block;
+}
+
+
+/*
 MAIN END CONTAINER APP SETTING
 */
 .container{
@@ -86,6 +103,18 @@ FIVE SECTION MUSIC-CONTENT
     height: 100px;
     border: 1px dashed black;
     background-color: rgba(255, 255, 0, 0.517);
+    position: relative;
+}
+
+.button-upgrade{
+    width: 250px;
+    height: 50px;
+    border: 1px dashed black;
+    background-color: rgb(255, 113, 250);
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translate(0%, -50%);
 }
 
 /*
