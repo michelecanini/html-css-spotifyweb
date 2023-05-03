@@ -25,9 +25,29 @@ MAIN END CONTAINER APP SETTING
 /*
 NAV-SIDEBAR SETTING
 */
-
 .sidebar{
-    width: 300px;
+    width: 250px;
     height: 100vh;
     background-color: blue;
 }
+
+/*
+FIRST SECTION LOGO END LOGO MOBILE
+*/
+.logo{
+    width: 100%;
+    height: 85px;
+    border: 1px dashed black;
+    background-color: green;
+}
+
+/*
+SECOND SECTION MENU-SIDEBAR
+*/
+.menu-sidebar{
+    width: 100%;
+    height: 120px;
+    border: 1px dashed black;
+    background-color: yellow;
+}
+
