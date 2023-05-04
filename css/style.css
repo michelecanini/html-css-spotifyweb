@@ -34,6 +34,7 @@ a{
 .margin-bottom20{
     margin-bottom: 20px;
 }
+
 /*
 MAIN END CONTAINER APP SETTING
 */
@@ -46,6 +47,7 @@ MAIN END CONTAINER APP SETTING
     width: 100vw;
     height: calc(100vh - 100px);
     display: flex;
+    overflow: hidden;
 }
 
 /*
@@ -174,7 +176,7 @@ SIX SECTION CONTENT E NAV
     height: 100%;
 }
 
-.nav-test{
+.nav-center{
     text-align: center;
 }
 
@@ -183,10 +185,28 @@ SIX SECTION CONTENT E NAV
 }
 
 .item-recently-played{
-    margin-right: 15px;
+    margin-right: 10px;
     display: inline-block;
     margin-bottom: 20px;
 }
+
+.album img{
+    max-width: 100%;
+    min-width: 100px;
+}
+
+.album-flex{
+    display: flex;
+    justify-content:flex-start;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.album{
+    width: calc(100% / 6 - 20px);
+    margin-right: 30px;
+}
+
 
 /*
 FOOTER-PLAYER SETTING
@@ -199,3 +219,7 @@ FOOTER-PLAYER SETTING
     position: fixed;
     bottom: 0;
 }
+
+/*
+TABLET
+*/
