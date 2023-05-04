@@ -7,6 +7,10 @@ GENERAL SETTING - DESKTOP FIRST
     box-sizing: border-box;
 }
 
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
 /*
 UTILITY SETTING
 */
@@ -141,11 +145,10 @@ FIVE SECTION MUSIC-CONTENT
 }
 
 .button-upgrade{
-    width: 250px;
+    width: 300px;
     height: 50px;
-    border: 1px dashed black;
     position: absolute;
-    right: 5px;
+    right: 25px;
     top: 50%;
     transform: translate(0%, -50%);
 }
