@@ -23,6 +23,13 @@ a{
     display: inline-block;
 }
 
+.margin20{
+    margin: 20px;
+}
+
+.margin-bottom20{
+    margin-bottom: 20px;
+}
 /*
 MAIN END CONTAINER APP SETTING
 */
@@ -172,13 +179,10 @@ SIX SECTION CONTENT E NAV
     padding-right: 25px;
 }
 
-.recently-played{
-    margin: 20px;
-}
-
 .item-recently-played{
     margin-right: 15px;
     display: inline-block;
+    margin-bottom: 20px;
 }
 
 /*
