@@ -218,9 +218,8 @@ FOOTER-PLAYER SETTING
     bottom: 0;
 }
 
-
 /*
-DESKTOP LARGE
+TABLET
 */
 @media screen and (max-width: 991px) {
     .album{
@@ -232,7 +231,16 @@ DESKTOP LARGE
     }
 }
 
+@media screen and (max-width: 768px) {
+    .album{
+        width: calc(100% / 2 - 20px);
+    }
+
+    .album-flex{
+        flex-wrap: wrap;
+    }
+}
 
 /*
-TABLET
+MOBILE
 */
