@@ -132,7 +132,6 @@ FIVE SECTION MUSIC-CONTENT
 .topbar{
     width: calc(100% - 250px);
     height: 100px;
-    border: 1px dashed black;
     background-color: rgba(82, 81, 81, 0.749);
     position: fixed;
     top: 0;
@@ -205,7 +204,6 @@ SIX SECTION CONTENT E NAV
     margin-right: 20px;
 }
 
-
 /*
 FOOTER-PLAYER SETTING
 */
@@ -244,3 +242,28 @@ TABLET
 /*
 MOBILE
 */
+@media screen and (max-width: 550px) {
+    .sidebar{
+        width: 50px;
+    }
+
+    .music-content{
+        width: calc(100% - 50px);
+    }
+
+    .topbar{
+        width: calc(100% - 50px);
+    }
+
+    .album{
+        width: calc(100% / 2 - 20px);
+    }
+
+    .album-flex{
+        flex-wrap: wrap;
+    }
+
+    .menu-playlist{
+        display: none;
+    }
+}
