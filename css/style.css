@@ -192,19 +192,17 @@ SIX SECTION CONTENT E NAV
 
 .album img{
     max-width: 100%;
-    min-width: 100px;
 }
 
 .album-flex{
     display: flex;
     justify-content:flex-start;
     margin-left: 20px;
-    margin-right: 20px;
 }
 
 .album{
     width: calc(100% / 6 - 20px);
-    margin-right: 30px;
+    margin-right: 20px;
 }
 
 
@@ -219,6 +217,21 @@ FOOTER-PLAYER SETTING
     position: fixed;
     bottom: 0;
 }
+
+
+/*
+DESKTOP LARGE
+*/
+@media screen and (max-width: 991px) {
+    .album{
+        width: calc(100% / 4 - 20px);
+    }
+
+    .album-flex{
+        flex-wrap: wrap;
+    }
+}
+
 
 /*
 TABLET
