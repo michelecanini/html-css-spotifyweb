@@ -103,7 +103,6 @@ SECOND SECTION MENU-SIDEBAR
 */
 .menu-sidebar{
     width: 100%;
-    border: 1px dashed white;
 }
 
 .menu-sidebar ul{
@@ -113,7 +112,20 @@ SECOND SECTION MENU-SIDEBAR
 .icon-svg{
     width: 30px;
     margin: 5px;
+    margin-left: 20px;
 }
+
+.menu-sidebar span{
+    position: absolute;
+    top: 50%;
+    transform: translate(0%, -50%);
+}
+
+.menu-sidebar li{
+    position: relative;
+}
+
+
 
 /*
 THREE SECTION PLAYLIST
@@ -290,5 +302,17 @@ MOBILE
 
     .small-logo{
         display: block;
+    }
+
+    .menu-sidebar ul{
+        text-align: center;
+    }
+
+    .menu-sidebar span{
+        display: none;
+    }
+
+    .icon-svg{
+        margin-left: 5px;
     }
 }
