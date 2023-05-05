@@ -107,6 +107,7 @@ SECOND SECTION MENU-SIDEBAR
 
 .menu-sidebar ul{
     text-align: left;
+    margin-bottom: 20px;
 }
 
 .icon-svg{
@@ -125,16 +126,41 @@ SECOND SECTION MENU-SIDEBAR
     position: relative;
 }
 
-
-
 /*
 THREE SECTION PLAYLIST
 */
 .menu-playlist{
     width: 100%;
-    height: 250px;
-    border: 1px dashed black;
-    background-color: green;
+}
+
+.menu-playlist h3{
+    color: white;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.menu-playlist a{
+    margin-left: 20px;
+}
+
+.menu-playlist li{
+    line-height: 35px;
+}
+
+.menu-playlist i{
+    font-size: 50px;
+}
+
+.plus{
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.plus span{
+    position: absolute;
+    top: 50%;
+    transform: translate(0%, -50%);
+    margin-left: 10px;
 }
 
 /*
