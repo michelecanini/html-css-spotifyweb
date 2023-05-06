@@ -327,7 +327,6 @@ FOOTER-PLAYER SETTING
 .row-left-player{
     width: 100%;
     height: 100%;
-    background-color: red;
     display: flex;
     flex-direction: row;
 }
@@ -335,20 +334,54 @@ FOOTER-PLAYER SETTING
 .col-image{
     width: 30%;
     height: 100%;
-    border: 1px dashed black;
+    border: 1px dashed white;
     position: relative;
-}
-
-.col-title{
-    width: 40%;
-    height: 100%;
-    border: 1px dashed black;
 }
 
 .col-image img{
     height: 50%;
     position: absolute;
     left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.col-title{
+    width: 40%;
+    height: 100%;
+    border: 1px dashed white;
+    position: relative;
+}
+
+.col-title h5{
+    position: absolute;
+    top: 40%;
+    transform: translate(-0%, -50%)
+}
+
+.col-title p{
+    position: absolute;
+    top: 60%;
+    transform: translate(-0%, -50%)
+}
+
+.col-icon{
+    width: 30%;
+    height: 100%;
+    border: 1px dashed white; 
+    position: relative;
+}
+
+#heart{
+    position: absolute;
+    left: 30%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#folder{
+    position: absolute;
+    left: 70%;
     top: 50%;
     transform: translate(-50%, -50%);
 }
