@@ -319,6 +319,40 @@ FOOTER-PLAYER SETTING
     bottom: 0;
 }
 
+.left-player{
+    width: 250px;
+    height: 100%;
+}
+
+.row-left-player{
+    width: 100%;
+    height: 100%;
+    background-color: red;
+    display: flex;
+    flex-direction: row;
+}
+
+.col-image{
+    width: 30%;
+    height: 100%;
+    border: 1px dashed black;
+    position: relative;
+}
+
+.col-title{
+    width: 40%;
+    height: 100%;
+    border: 1px dashed black;
+}
+
+.col-image img{
+    height: 50%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
 /*
 TABLET
 */
