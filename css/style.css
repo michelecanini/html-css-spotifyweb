@@ -295,11 +295,16 @@ SIX SECTION CONTENT E NAV
     display: flex;
     justify-content:flex-start;
     margin-left: 20px;
+    margin-bottom: 100px;
 }
 
 .album{
     width: calc(100% / 6 - 20px);
     margin-right: 20px;
+}
+
+.image-circle{
+    border-radius: 50%;
 }
 
 /*
@@ -407,7 +412,7 @@ MOBILE
     .item-install-client i{
         margin-left: 0px;
     }
-    
+
     #icon-download{
         position: absolute;
         left: 50%;
