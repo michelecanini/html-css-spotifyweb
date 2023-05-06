@@ -339,6 +339,9 @@ FOOTER-PLAYER SETTING
     width: 70%;
     height: 100%;
     border: 1px dashed white;
+    display: flex;
+    flex-direction: column;
+
 }
 
 /*
@@ -419,7 +422,6 @@ FOOTER- CENTER PLAYER SETTING
     width: 70%;
     display: flex;
     justify-content: center;
-
 }
 
 .col-icon-center{
@@ -463,6 +465,31 @@ FOOTER- CENTER PLAYER SETTING
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
+}
+
+
+/*
+FOOTER- BOTTOM PLAYER SETTING
+*/
+.col-icon-center-bottom{
+    width: 600px;
+    height: 100%;
+    border: 1px dashed white;
+    position: absolute;
+    left: 50%;
+    top: 150%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+#line-range{
+    width: 80%;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+.col-icon-center-bottom span{
+    font-size: 10px;
 }
 
 /*
