@@ -278,7 +278,7 @@ SIX SECTION CONTENT E NAV
 }
 
 .item-nav-link{
-    padding-right: 25px;
+    margin-right: 25px;
 }
 
 .item-recently-played{
@@ -327,13 +327,13 @@ FOOTER-PLAYER SETTING
     justify-content: space-between;
 }
 
-.col25{
+.col15{
     width: 15%;
     height: 100%;
     border: 1px dashed white;
 }
 
-.col50{
+.col70{
     width: 70%;
     height: 100%;
     border: 1px dashed white;
@@ -404,6 +404,31 @@ FOOTER- LEFT PLAYER SETTING
     position: absolute;
     left: 70%;
     top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/*
+FOOTER- CENTER PLAYER SETTING
+*/
+
+.row-center-player{
+    max-width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    background-color: chartreuse;
+    position: relative;
+}
+
+.row-center-player li{
+    margin-right: 30px;
+}
+
+.icon-list-player{
+    position: absolute;
+    left: 50%;
+    top: 30%;
     transform: translate(-50%, -50%);
 }
 
