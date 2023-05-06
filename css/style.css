@@ -329,10 +329,17 @@ FOOTER-PLAYER SETTING
     justify-content: space-between;
 }
 
-.col15{
+.col15-left{
     width: 15%;
     height: 100%;
     border: 1px dashed white;
+}
+
+.col15-right{
+    width: 15%;
+    height: 100%;
+    border: 1px dashed white;
+    position: relative;
 }
 
 .col70{
@@ -469,7 +476,7 @@ FOOTER- CENTER PLAYER SETTING
 
 
 /*
-FOOTER- BOTTOM PLAYER SETTING
+FOOTER- BOTTOM PLAYER TIME SETTING
 */
 .col-icon-center-bottom{
     width: 600px;
@@ -484,12 +491,57 @@ FOOTER- BOTTOM PLAYER SETTING
 
 #line-range{
     width: 80%;
-    margin-top: 15px;
     margin-left: 10px;
+    margin-top: 15px;
 }
 
 .col-icon-center-bottom span{
     font-size: 10px;
+}
+
+/*
+FOOTER- RIGHT PLAYER VOLUME SETTING
+*/
+.row-right-player{
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    position: relative;
+
+}
+
+.col-icon-right{
+    width: 30%;
+    height: 100%;
+    border: 1px dashed white;
+
+}
+
+.col-icon-right div{
+    position: absolute;
+    left: 20%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.margin-r10{
+    margin-right: 10px;
+}
+
+.col-icon-right-v{
+    width: 70%;
+    height: 100%;
+    border: 1px dashed white;
+    position: relative;
+}
+
+.col-icon-right-v input{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    margin-left: 10px;
 }
 
 /*
