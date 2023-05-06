@@ -339,16 +339,12 @@ FOOTER-PLAYER SETTING
     border: 1px dashed white;
 }
 
-
-
 /*
-.left-player{
-    width: 250px;
-    height: 100%;
-}
+FOOTER- LEFT PLAYER SETTING
+*/
 
 .row-left-player{
-    width: 100%;
+    max-width: 250px;
     height: 100%;
     display: flex;
     flex-direction: row;
@@ -410,7 +406,6 @@ FOOTER-PLAYER SETTING
     top: 50%;
     transform: translate(-50%, -50%);
 }
-*/
 
 /*
 TABLET
