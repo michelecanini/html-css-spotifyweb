@@ -130,6 +130,8 @@ THREE SECTION PLAYLIST
 */
 .menu-playlist{
     width: 100%;
+    height: 40vh;
+    overflow-y: auto;
 }
 
 .menu-playlist h3{
@@ -410,25 +412,56 @@ FOOTER- LEFT PLAYER SETTING
 /*
 FOOTER- CENTER PLAYER SETTING
 */
-
 .row-center-player{
-    max-width: 100%;
-    height: 100%;
+    position: absolute;
+    border: 1px dashed white;
+    height: 50%;
+    width: 70%;
     display: flex;
-    flex-direction: row;
-    justify-content: left;
-    background-color: chartreuse;
+    justify-content: center;
+
+}
+
+.col-icon-center{
+    width: 50px;
+    height: 100%;
+    border: 1px dashed white;
     position: relative;
 }
 
-.row-center-player li{
-    margin-right: 30px;
-}
-
-.icon-list-player{
+#play{
+    font-size: 40px;
     position: absolute;
     left: 50%;
-    top: 30%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#random{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#step-backward{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#step-forward{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#redo-alt{
+    position: absolute;
+    left: 50%;
+    top: 50%;
     transform: translate(-50%, -50%);
 }
 
