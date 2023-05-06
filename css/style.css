@@ -16,7 +16,6 @@ UTILITY SETTING
 */
 ul{
     list-style-type: none;
-    
 }
 
 a{
@@ -121,6 +120,17 @@ SECOND SECTION MENU-SIDEBAR
     transform: translate(0%, -50%);
 }
 
+#home-white{
+    color: white;
+    font-weight: bold;
+}
+
+#cerca-grey, #libreria-grey{
+    color: rgb(163, 163, 163);
+    font-weight: bold;
+}
+
+
 .menu-sidebar li{
     position: relative;
 }
@@ -134,7 +144,7 @@ THREE SECTION PLAYLIST
     overflow-y: auto;
 }
 
-.menu-playlist h3{
+.menu-playlist h4{
     color: white;
     margin-left: 20px;
     margin-bottom: 20px;
@@ -142,6 +152,8 @@ THREE SECTION PLAYLIST
 
 .menu-playlist a{
     margin-left: 20px;
+    color:rgb(163, 163, 163);
+    font-weight: 700;
 }
 
 .menu-playlist li{
@@ -199,10 +211,13 @@ FOUR SECTION INSTALL-APP END CLIENT
     top: 50%;
     transform: translate(0%, -50%);
     margin-left: 10px;
+    font-weight: bold;
 }
 
 #installa-app{
     margin-left: 10px;
+    color: rgb(163, 163, 163);
+    font-weight: 700;
 }
 
 #user-jonh{
@@ -309,6 +324,11 @@ SIX SECTION CONTENT E NAV
     border-radius: 50%;
 }
 
+.nav-center a{
+    color:rgb(163, 163, 163);
+    font-weight: 700;
+}
+
 /*
 FOOTER-PLAYER SETTING
 */
@@ -344,20 +364,17 @@ FOOTER-PLAYER SETTING
     height: 100%;
     display: flex;
     flex-direction: column;
-
 }
 
 /*
 FOOTER- LEFT PLAYER SETTING
 */
-
 .row-left-player{
     max-width: 250px;
     height: 100%;
     display: flex;
     flex-direction: row;
     justify-content: left;
-
 }
 
 .col-image{
@@ -455,28 +472,7 @@ FOOTER- CENTER PLAYER SETTING
     transform: translate(-50%, -50%);
 }
 
-#random{
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-}
-
-#step-backward{
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-}
-
-#step-forward{
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-}
-
-#redo-alt{
+#random, #step-backward, #step-forward, #redo-alt{
     position: absolute;
     left: 50%;
     top: 50%;
@@ -527,7 +523,6 @@ FOOTER- RIGHT PLAYER VOLUME SETTING
     color: white;
 }
 
-
 .col-icon-right div{
     position: absolute;
     left: 20%;
@@ -552,8 +547,6 @@ FOOTER- RIGHT PLAYER VOLUME SETTING
     transform: translate(-50%, -50%);
     margin-left: 10px;
 }
-
-
 
 /*
 TABLET
