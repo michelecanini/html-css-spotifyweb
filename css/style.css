@@ -38,6 +38,10 @@ a{
     border-left: 3px solid lime;
 }
 
+.border-active2{
+    border-bottom: 3px solid lime;
+}
+
 /*
 MAIN END CONTAINER APP SETTING
 */
@@ -287,11 +291,21 @@ FIVE SECTION MUSIC-CONTENT
     border: 2px solid white;
     position: absolute;
     right: 0;
-    top: 50%;
+    top: 0%;
     transform: translate(0%, -50%);
     border-radius: 25px;
     color: white;
     font-weight: 700;
+    text-transform: uppercase;
+    transition: .6s;
+}
+
+.zoom-in{
+    transform: scale(1);
+}
+
+.zoom-in:hover{
+    transform: scale(1.2);
 }
 
 .content-musical-artist h2{
@@ -471,11 +485,6 @@ FOOTER- LEFT PLAYER SETTING
 
 #brano-nome{
     font-size: 12px;
-    color: rgb(163, 163, 163);
-}
-
-
-#heart, #folder{
     color: rgb(163, 163, 163);
 }
 
