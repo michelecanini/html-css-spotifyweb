@@ -275,10 +275,28 @@ FIVE SECTION MUSIC-CONTENT
     top: 50%;
     transform: translate(0%, -50%);
     border-radius: 25px;
+    color: white;
+    font-weight: 700;
 }
 
-.content-musical-artist h2,h4{
+.content-musical-artist h2{
     color: white;
+}
+
+.content-musical-artist h3{
+    color: white;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.content-musical-artist p{
+    text-align: center;
+    color:rgb(163, 163, 163);
+}
+
+#text-left, #text-left2{
+    text-align: left;
+    margin-bottom: 30px;
 }
     
 /*
@@ -306,6 +324,7 @@ SIX SECTION CONTENT E NAV
 
 .album img{
     max-width: 100%;
+    margin-bottom: 10px;
 }
 
 .album-flex{
