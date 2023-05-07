@@ -34,6 +34,10 @@ a{
     margin-bottom: 20px;
 }
 
+.border-active{
+    border-left: 3px solid lime;
+}
+
 /*
 MAIN END CONTAINER APP SETTING
 */
@@ -112,6 +116,15 @@ SECOND SECTION MENU-SIDEBAR
     width: 30px;
     margin: 5px;
     margin-left: 20px;
+    filter: brightness(0) saturate(100%) invert(78%) sepia(11%) saturate(11%) hue-rotate(345deg) brightness(84%) contrast(82%);
+}
+
+.icon-svg:hover{
+    filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(0%) hue-rotate(114deg) brightness(101%) contrast(102%);
+}
+
+.icon-svg2:hover{
+    filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(7500%) hue-rotate(110deg) brightness(98%) contrast(108%);
 }
 
 .menu-sidebar span{
@@ -125,9 +138,12 @@ SECOND SECTION MENU-SIDEBAR
     font-weight: bold;
 }
 
-#cerca-grey, #libreria-grey{
+.color-g{
     color: rgb(163, 163, 163);
-    font-weight: bold;
+}
+
+.color-g:hover{
+    color: white;
 }
 
 
@@ -216,7 +232,6 @@ FOUR SECTION INSTALL-APP END CLIENT
 
 #installa-app{
     margin-left: 10px;
-    color: rgb(163, 163, 163);
     font-weight: 700;
 }
 
@@ -363,7 +378,6 @@ EFFECT LAYOVER
 .text-hover-w:hover{
     color: white;
 }
-
 
 /*
 FOOTER-PLAYER SETTING
