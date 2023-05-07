@@ -325,6 +325,7 @@ SIX SECTION CONTENT E NAV
 .album img{
     max-width: 100%;
     margin-bottom: 10px;
+    display: block;
 }
 
 .album-flex{
@@ -347,6 +348,22 @@ SIX SECTION CONTENT E NAV
     color:rgb(163, 163, 163);
     font-weight: 700;
 }
+
+.nav-center ul{
+    margin-bottom: 50px;
+}
+
+/*
+EFFECT LAYOVER
+*/
+.image-layover:hover{
+    opacity: 0.5;
+}
+
+.text-hover-w:hover{
+    color: white;
+}
+
 
 /*
 FOOTER-PLAYER SETTING
