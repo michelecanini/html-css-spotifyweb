@@ -502,7 +502,7 @@ FOOTER- CENTER PLAYER SETTING
 FOOTER- BOTTOM PLAYER TIME SETTING
 */
 .col-icon-center-bottom{
-    width: 600px;
+    width: 70%;
     height: 100%;
     position: absolute;
     left: 50%;
@@ -520,6 +520,7 @@ FOOTER- BOTTOM PLAYER TIME SETTING
 
 .col-icon-center-bottom span{
     font-size: 10px;
+    color: white;
 }
 
 /*
@@ -577,6 +578,19 @@ TABLET
 
     .album-flex{
         flex-wrap: wrap;
+    }
+
+    .col15-left, .col15-right{
+        width: 25%;
+      
+    }
+    
+    .col70{
+        max-width: 50%;
+    }
+
+    .row-center-player{
+        width: 50%;
     }
 }
 
