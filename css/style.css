@@ -369,6 +369,34 @@ SIX SECTION CONTENT E NAV
     margin-right: 20px;
 }
 
+.album-card{
+    position: relative;
+}
+
+.album-card:hover .icon-play{
+    opacity: 1;
+}
+
+.icon-play{
+    background-color: rgb(0, 0, 0, 0.5);
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: white;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    opacity: 0;
+}
+
+.album-card:hover .icon-play-circle{
+    opacity: 1;
+    border-radius: 50%;
+}
+
 .image-circle{
     border-radius: 50%;
 }
